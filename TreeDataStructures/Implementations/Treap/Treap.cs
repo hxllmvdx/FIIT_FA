@@ -19,7 +19,7 @@ public class Treap<TKey, TValue> : BinarySearchTreeBase<TKey, TValue, TreapNode<
         if (root == null)
             return (null, null);
 
-        int cmp = Comparer<TKey>.Default.Compare(key, root.Key);
+        int cmp = Comparer.Compare(key, root.Key);
 
         if (placeEqualLeft)
         {
