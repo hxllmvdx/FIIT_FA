@@ -68,5 +68,5 @@ public class BinarySearchTreeTests : GenericTreeTests<BinarySearchTree<int, stri
 // [TestFixture, Category("Splay")]
 // public class SplayTests : GenericTreeTests<SplayTree<int, string>> { }
 
-// [TestFixture, Category("Treap")]
-// public class TreapTests : GenericTreeTests<Treap<int, string>> { }
+[TestFixture, Category("Treap")]
+public class TreapTests : GenericTreeTests<Treap<int, string>> { }
